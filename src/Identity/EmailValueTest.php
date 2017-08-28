@@ -1,6 +1,6 @@
 <?php
 
-namespace KickAss\ValueObjects\Person;
+namespace KickAss\ValueObjects\Identity;
 
 use KickAss\ValueObjects\ValidationException;
 use PHPUnit\Framework\TestCase;
