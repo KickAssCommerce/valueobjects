@@ -1,0 +1,21 @@
+{
+  "name": "kickasscommerce/valueobjects",
+  "description": "A set of generic value objects to be used in PHP projects",
+  "type": "library",
+  "require": {},
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sander Mangel",
+      "email": "sander@sandermangel.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KickAss\\ValueObjects\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  }
+}
