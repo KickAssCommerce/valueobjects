@@ -15,8 +15,7 @@ class CountryObject
      */
     public function __construct(
         CountryIso2Value $iso2
-    )
-    {
+    ) {
         $this->iso2 = $iso2;
     }
 
