@@ -38,7 +38,7 @@ class NameValue extends StringType
      */
     public function title(): string
     {
-        return $this->title;
+        return (string)$this->title;
     }
 
     /**
@@ -46,7 +46,7 @@ class NameValue extends StringType
      */
     public function firstname(): string
     {
-        return $this->firstname;
+        return (string)$this->firstname;
     }
 
     /**
@@ -54,7 +54,7 @@ class NameValue extends StringType
      */
     public function middlename(): string
     {
-        return $this->middlename;
+        return (string)$this->middlename;
     }
 
     /**
@@ -62,7 +62,7 @@ class NameValue extends StringType
      */
     public function lastname(): string
     {
-        return $this->lastname;
+        return (string)$this->lastname;
     }
 
     /**
@@ -72,7 +72,7 @@ class NameValue extends StringType
      */
     public function fullName(): string
     {
-        return $this->value();
+        return (string)$this->value();
     }
 
     /**
