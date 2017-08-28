@@ -27,7 +27,7 @@ class EmailValueTest extends TestCase
     {
         $value = new EmailValue('test@example.com');
 
-        $this->assertEquals('string', gettype($value->getValue()));
+        $this->assertEquals('string', gettype($value->value()));
     }
 
     /**
@@ -38,6 +38,6 @@ class EmailValueTest extends TestCase
         $value = new EmailValue('test@example.com');
 
         $this->assertEquals('test@example.com', (string)$value);
-        $this->assertEquals('test@example.com', $value->getValue());
+        $this->assertEquals('test@example.com', $value->value());
     }
 }

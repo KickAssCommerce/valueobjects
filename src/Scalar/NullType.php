@@ -36,7 +36,7 @@ class NullType implements TypesInterface
      *
      * @return null
      */
-    public function getValue()
+    public function value()
     {
         return $this->value;
     }

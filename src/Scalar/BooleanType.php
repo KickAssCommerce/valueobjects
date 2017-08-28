@@ -36,7 +36,7 @@ class BooleanType implements TypesInterface
      *
      * @return bool
      */
-    public function getValue(): bool
+    public function value(): bool
     {
         return (bool)$this->value;
     }

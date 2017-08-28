@@ -36,7 +36,7 @@ class StringType implements TypesInterface
      *
      * @return string
      */
-    public function getValue(): string
+    public function value(): string
     {
         return (string)$this->value;
     }
@@ -48,6 +48,6 @@ class StringType implements TypesInterface
      */
     public function __toString(): string
     {
-        return $this->getValue();
+        return $this->value();
     }
 }

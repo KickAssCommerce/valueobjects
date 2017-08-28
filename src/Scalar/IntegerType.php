@@ -36,7 +36,7 @@ class IntegerType implements TypesInterface
      *
      * @return int
      */
-    public function getValue(): int
+    public function value(): int
     {
         return (int)$this->value;
     }

@@ -36,7 +36,7 @@ class FloatType implements TypesInterface
      *
      * @return float
      */
-    public function getValue(): float
+    public function value(): float
     {
         return (float)$this->value;
     }

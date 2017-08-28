@@ -18,8 +18,8 @@ try {
    // handle the exception for invalid values
 }
 
-echo $value->getValue();
-echo (string)$value->getValue;
+echo $value->value();
+echo (string)$value;
 ``` 
 
 Outputs
