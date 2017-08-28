@@ -4,7 +4,7 @@ namespace KickAss\ValueObjects\Scalar;
 
 use KickAss\ValueObjects\ValidationException;
 
-abstract class IntegerType implements TypesInterface
+class IntegerType implements TypesInterface
 {
     protected $value;
 

@@ -4,7 +4,7 @@ namespace KickAss\ValueObjects\Scalar;
 
 use KickAss\ValueObjects\ValidationException;
 
-abstract class BooleanType implements TypesInterface
+class BooleanType implements TypesInterface
 {
     protected $value;
 
