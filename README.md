@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/KickAssCommerce/valueobjects.svg?branch=master)](https://travis-ci.org/KickAssCommerce/valueobjects)
 
+Please note: this project is, for now, in alpha while I try to figure out what works best
+
 A set of common value objects. 
 
 Types are grouped by categories like `Identity`. Each object extends a scalar type for basic validation and return type enforcing
