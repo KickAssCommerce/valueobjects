@@ -26,7 +26,7 @@ class BooleanType implements TypesInterface
      */
     protected function validateSetValue()
     {
-        if (!is_float($this->value)) {
+        if (!is_bool($this->value)) {
             throw new ValidationException('Value is not a boolean');
         }
     }
